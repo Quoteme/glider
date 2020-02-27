@@ -8,6 +8,6 @@ time ago, but just now rediscovered it; Therefor I share it here.
 
 ---
 
-<center>[online version](https://quoteme.github.io/glider/)</center>
+[TRY IN YOUR BROWSER](https://quoteme.github.io/glider/)
 
 ---
