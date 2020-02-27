@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>index</title>
+		<link rel="stylesheet" href="clrschemes/default.css" type="text/css" media="screen" title="no title" charset="utf-8">
+		<link rel="stylesheet" href="style.css" type="text/css" media="all">
+	</head>
+	<body>
+		<canvas id="canvas" width="500" height="300"></canvas>
+		<canvas id="tmpC" style="display:none"></canvas>
+		<br>
+		<button onclick="fullscreen(document.getElementById('canvas'));">fullscreen</button>
+		<input type="range" id="zoom" value="1" step="0.1" min="0.25" max="5" onchange="cam.zoom=parseFloat(this.value);">
+
+		<script src="app.js" charset="utf-8"></script>
+	</body>
+</html>

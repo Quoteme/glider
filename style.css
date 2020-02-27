@@ -1,0 +1,20 @@
+/*
+ *			COLOR SCHEME NAMES:
+ *
+ *	--bg	=	background		=	#272324
+ *	--fg	=	foreground		=	#83B799
+ *	--hl1	=	highlight 1		=	#E2CD6D
+ *	--hl2	=	highlight 2		=	#C2B28F
+ *	--hl3	=	highlight 3		=	#E4D8B4
+ *	--alt	=	alert			=	#E86F68
+*/
+
+canvas{
+	border: 2px solid var(--bg);
+	background-color: var(--hl3);
+	image-rendering: pixelated;
+}
+
+body{
+	background: #000
+}
